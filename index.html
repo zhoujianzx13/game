@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>练习</title>
+    <meta charset="utf-8" name="referrer" content="no-referrer" />
+    <style type="text/css">
+        html{
+            background-image:url("http://pic.netbian.com/uploads/allimg/190211/235228-1549900348f5ed.jpg");
+            background-size:100%;
+        }
+        .box1 {
+            text-align:center;
+            width: 200px;
+            height:431px;
+            margin: 130px auto;
+            overflow:hidden;
+            text-align: center;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        a {
+            font-size:30px;
+            color: black;
+            text-decoration: none;
+        }
+        a:hover{
+            color:#EAF2D3;
+        }
+        h1{
+            margin-top:-5px;
+            margin-bottom: 40px;
+            font-size:50px;
+        }
+
+    </style>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript">
+        window.onload = function () {
+            var flag=1;
+            var $liuyan=$(".liuyan");
+            $liuyan.mouseover(function () {
+                if(flag==1){
+                    flag++;
+                    alert("请来访的同学一定要留个言哟");
+                }
+            })
+          
+ $(".lianxi").click(function () {
+                alert();
+            })
+        };
+    </script>
+</head>
+<body>
+    <div class="box1">
+        <h1>欢迎</h1>
+        <a href="Plane Wars.html" target="_blank">飞机大战</a><br />
+        <a href="plantszombies.html" target="_blank">植物大战僵尸</a><br />
+        <a href="snake.html" target="_blank">贪吃蛇</a><br />
+        <a href="maze.html" target="_blank">迷宫</a><br />
+        <a href="hh.html" target="_blank">冒险岛</a><br />
+    </div>
+</body>
+</html>
